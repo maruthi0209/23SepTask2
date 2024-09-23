@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Name attribute should be used with input tag -->
+    <form action="./response.html" method="get">
+
+        <p>Crispy Chicken + Crunchy Chicken Tacho = Rs.128 </p>
+
+        <!-- fieldset tag -->
+         <fieldset>
+            <legend><b>Select Menu add-ons</b></legend>
+
+            <h3>Customize as per your taste</h3>
+            <!-- insert table -->
+            <table>
+                <!-- regular fries + coke -->
+                <tr>
+                    <td><p>Fries(Reg) + Coke (Save Rs.56)       </p></td>
+                    <td><p>+ Rs.119</p></td>
+                    <td>
+                        <label for="regfriesCoke"></label>
+                        <input type="checkbox" name="regfriesCoke" id="regfriesCoke" value="regfriesCoke">
+                    </td>
+                </tr>
+                <!-- medium fries + coke -->
+                <tr>
+                    <td><p>Fries(Med) + Coke (Save Rs.60)</p></td>
+                    <td><p>+ Rs.149</p></td>
+                    <td>
+                        <label for="medfriesCoke"></label>
+                        <input type="checkbox" name="medfriesCoke" id="medfriesCoke" value="medfriesCoke">
+                    </td>
+                </tr>
+                <!-- medium fries + chocolate thickshake -->
+                <tr>
+                    <td><p>Fries(Med) + chocolate thickshake <br>(Save Rs.109)</p></td>
+                    <td><p>+ Rs.196</p></td>
+                    <td>
+                        <label for="medfriesthickshake"></label>
+                        <input type="checkbox" name="medfriesthickshake" id="medfriesthickshake" value="medfriesthickshake">
+                    </td>
+                </tr>
+            </table>
+
+            <h4>Choose your Sides & Dessert</h4>
+            <!-- insert table -->
+             <table>
+                <!-- veg strips -->
+                <tr>
+                    <td><p>Veg Strips (5pcs)</p></td>
+                    <td><p>+ Rs.59</p></td>
+                    <td>
+                        <label for="vegStrips"></label>
+                        <input type="checkbox" name="vegStrips" id="vegStrips" value="vegStrips">
+                    </td>
+                </tr>
+                <!-- Med Fries -->
+                <tr>
+                    <td>Med Fries</td>
+                    <td>+ Rs.119</td>
+                    <td>
+                        <label for="medFries"></label>
+                        <input type="checkbox" name="medFries" id="medFries" value="medFries">
+                    </td>
+                </tr>
+                <!-- Peri Peri Spice Mix -->
+                <tr>
+                    <td><p>Peri Peri Spice Mix</p></td>
+                    <td>+ Rs.28.57</td>
+                    <td>
+                        <label for="ppSpiceMix"></label>
+                        <input type="checkbox" name="ppSpiceMix" id="ppSpiceMix" value="ppSpiceMix">
+                    </td>
+                </tr>
+                <!-- 4 Pcs Crunchy Chicken Nuggets -->
+                <tr>
+                    <td><p>4 Pcs Crunchy Chicken <br> Nuggets</p></td>
+                    <td>+ Rs.95</td>
+                    <td>
+                        <label for="chkNuggets"></label>
+                        <input type="checkbox" name="chkNuggets" id="chkNuggets" value="chkNuggets">
+                    </td>
+                </tr>
+             </table>
+
+            <!-- Submit button -->
+            <input type="submit" value="Place Order!">
+
+        </fieldset>
+
+    </form>
+</body>
+</html>
